@@ -1,0 +1,67 @@
+/* Skip to Main Content Link */
+.skip-to-main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ff0;
+    padding: 10px;
+    z-index: 1000;
+}
+
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+}
+
+nav img {
+    width: 10%;
+}
+
+/* Grid Class for Two-Column Layout */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.grid img {
+    width: 100%;
+}
+
+/* Flex Class */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item {
+    flex: 1 1 40%;
+    margin: 10px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
